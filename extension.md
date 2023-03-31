@@ -13,7 +13,12 @@
 - This process is repeated until the recipient receives the index card
 
 ## Specify whether contents are ASCII text, Unicode text, or binary values
+### Solution 1:
 - Write down the type of content in human-readable form (ASCII) on the corner of the index card. The receivers will be able to read what type of message is written in the index card without actually seeing the message.
+
+### Solution 2:
+- When the sender gives the message to a person (node), they will tell the node what type of message it is.
+- When the node gives the message to the next person, they will relay the type of message it is.
 
 ## Keep a record of what nodes the card has passed through.
 - On the index card, write down a unique identifier of each node (person) that has received the card. This can be name, student ID, etc.
